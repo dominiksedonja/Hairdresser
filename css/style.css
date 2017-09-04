@@ -66,8 +66,7 @@ h2 {
 
 .slikaNudimo {
   margin: 7px 0px;
-  max-width: 258px;
-
+  width: 100%;
 }
 
 
@@ -112,4 +111,9 @@ figure.slider figure figcaption {
   background: rgba(0,0,0,0.0);
   color: #fff; width: 100%;
   font-size: 2rem; padding: .6rem;
+}
+
+.row2 {
+  margin-top: 50px;
+  
 }
