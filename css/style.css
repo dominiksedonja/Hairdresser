@@ -9,7 +9,7 @@
 
 .row {
   margin-top: 15px;
-  border-bottom: 2px solid grey;
+  border-bottom: 1px solid grey;
   display: flex;
   align-items: center;
 }
@@ -28,7 +28,7 @@
 
 
 .col-md-10{
-  border: 1px solid grey;
+
   display: inline-block;
   font-size: 20px;
 
@@ -43,7 +43,7 @@ h2 {
   margin-top: 20px;
   border-top: 1px solid grey;
   margin-bottom: 10px;
-
+  border-bottom: 1px solid grey;
 }
 
 .okno1{
@@ -80,7 +80,7 @@ h2 {
 70% { left: -200%; }
 75% { left: -300%; }
 95% { left: -300%; }
-100% { left: -300%; }
+100% { left: 0%; }
 }
 * {
   box-sizing: border-box;
@@ -113,7 +113,87 @@ figure.slider figure figcaption {
   font-size: 2rem; padding: .6rem;
 }
 
-.row2 {
-  margin-top: 50px;
-  
+.row1 {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  display: flex;
+  align-items: center;
+  height: auto;
+}
+
+.naroci {
+  margin-top: 20px;
+}
+
+.vnos {
+  display: flex;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.vnos1 {
+  width: 100%;
+  margin-bottom: 10px;
+  height: 100px;
+}
+
+.poslji {
+  float: left;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.table{
+  width: 80%;
+  border: 2px solid black;
+}
+
+th {
+  border: 1px solid black;
+}
+
+td {
+  border: 1px solid black;
+}
+
+tr {
+  border: 1px solid black;
+}
+
+.panel-title {
+  border-bottom: 1px solid grey;
+}
+
+h4 {
+  margin-left: 15px;
+}
+.panel {
+  border: 1px solid grey;
+}
+.panel-body {
+  font-size: 14px;
+
+}
+
+h3 {
+  margin-top: 0px;
+  margin-bottom: 20px;
+}
+
+.f{
+  padding: 0;
+  height: auto;
+  display: block;
+}
+.footer{
+  position: relative;
+  width 100%;
+  padding-top: 5px;
+  padding-bottom: 10px;
+  background-color: grey;
+  bottom: 0;
+}
+
+.col-md-4 {
+text-align: center;
 }
